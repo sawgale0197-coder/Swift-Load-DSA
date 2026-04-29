@@ -31,16 +31,4 @@ To capture a fresh test output:
 ./build/swift_load_inventory > tests/run_results.txt
 ```
 
-## GitHub Submission
-
-After creating a GitHub repository, push this folder and copy the repository URL into the report appendix.
-
-```bash
-git init
-git add README.md src/main.cpp tests/run_results.txt Swift_Load_DSA_Final_Report.docx
-git commit -m "Add Swift-Load DSA final assignment"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/swift-load-dsa-final.git
-git push -u origin main
-```
 
